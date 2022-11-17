@@ -1,0 +1,21 @@
+.hero {
+    position: relative;
+    background-image: url(../../images/Header-mobile\ img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-color: rgba(47, 48, 58, 0.4);
+
+    height: 400px;
+
+    & .container {
+        max-width: 360px;
+        height: 164px;
+    }
+
+    & .title {
+        margin-top: 118px;
+        margin-bottom: 30px;
+    }
+
+}
